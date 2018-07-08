@@ -1,8 +1,124 @@
 <html>
-<hrad>
-Test1
+
+<head>
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Lord Buddha- Comida Hindu</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <img class="hide-on-small-only circle " src="/images/logo.png" style="height:54px;" />
+      <img class="show-on-small hide-on-med-and-up brand-logo center circle" src="/images/logo.png" style="height:54px;" />
+
+      <a id="logo-container  " href="#" class="brand-logo hide-on-small-only">
+        Lord Buddha</a>
+      <ul class="right hide-on-med-and-down">
+        
+        <li>
+          <a href="#!menu">
+            <span class="material-icons" style="vertical-align: middle;">restaurant_menu</span> Menu</a>
+        </li>
+        
+        <li>
+            <a href="#!contactus">
+              <span class="material-icons" style="vertical-align: middle;">local_bar</span> Party &amp; Events</a>
+          </li>
+        <li>
+          <a href="#!aboutus">
+            <span class="material-icons" style="vertical-align: middle;">info</span> About us</a>
+        </li>
+        <li>
+          <a href="#!contactus">
+            <span class="material-icons" style="vertical-align: middle;">phone</span> Contact us</a>
+        </li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li>
+          <a href="#">
+            <i class="material-icons" style="vertical-align: middle;">restaurant_menu</i>Menu</a>
+        </li>
+        <li>
+          <a href="#!aboutus">
+            <i class="material-icons" style="vertical-align: middle;">info</i>About us</a>
+        </li>
+        <li>
+          <a href="#!contactus">
+            <i class="material-icons" style="vertical-align: middle;">phone</i>Contact us</a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </nav>
+  <style>
+    .map-responsive {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+
+    .map-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
 </head>
-<body>
-Test web
+
+<body ng-app="myApp">
+  <div ng-view></div>
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Lord Buddha</h5>
+          <p class="grey-text text-lighten-4">
+            The most important thing to us is customer satisfaction.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by
+        <a class="orange-text text-lighten-3" href="https://abhinav2510.github.io">
+          Abhinav Suryawanshi</a>
+        <span class="pull-right ">
+          <a href="">&nbsp;
+            <i class="fa fa-facebook white-text" aria-hidden="true"> Facebook</i>
+          </a>
+          <a href="">&nbsp;
+            <i class="fa fa-instagram white-text" aria-hidden="true"> Instagram</i>
+          </a>
+          <a href="">&nbsp;
+            <i class="fa fa-youtube white-text" aria-hidden="true"> Youtube</i>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="/js/init.js"></script>
+  <script src="https://use.fontawesome.com/d7a61fe367.js">
+  </script>
+
 </body>
-<html>
+
+</html>
