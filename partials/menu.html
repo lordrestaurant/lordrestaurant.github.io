@@ -1,15 +1,137 @@
 <div class="row">
+    <div class="col s1 m1"></div>
+<div class=" center col m10 s10">
+    <ul class="collapsible" data-collapsible="accordion">
+        <li>
+            <div class="collapsible-header"><i class="material-icons">fastfood</i>Starters</div>
+                <div class="collapsible-body">
+                    <ul class="collection">
+                            <li class="collection-item avatar" ng-repeat="item in startersItems">
+                                <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                <span class="title">{{item.itemName}}</span>
+                                <p>{{item.description}}</p>
+                                <span class="secondary-content">{{item.price}}</span>
+                            </li> 
+                    </ul>
+                </div>
+            
+            
+        </li>
 
-    <div class="col  m4 s12" >
-        Drinks
-    </div>
+        <li>
+                <div class="collapsible-header"><i class="material-icons">local_dining</i>Soups</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                                <li class="collection-item avatar" ng-repeat="item in soupItems">
+                                    <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                    <span class="title">{{item.itemName}}</span>
+                                    <p>{{item.description}}</p>
+                                    <span class="secondary-content">{{item.price}}</span>
+                                </li> 
+                        </ul>
+                    </div>
+            
+        </li>
+        
+        <li>
+                <div class="collapsible-header"><i class="material-icons">graphic_eq</i>Rice</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                                <li class="collection-item avatar" ng-repeat="item in riceItems">
+                                    <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                    <span class="title">{{item.itemName}}</span>
+                                    <p>{{item.description}}</p>
+                                    <span class="secondary-content">{{item.price}}</span>
+                                </li> 
+                        </ul>
+                    </div>
+            
+        </li>
+        
+        <li>
+                <div class="collapsible-header"><i class="material-icons">room_service</i>Main Course</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                                <li class="collection-item avatar" ng-repeat="item in mainItems">
+                                    <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                    <span class="title">{{item.itemName}}</span>
+                                    <p>{{item.description}}</p>
+                                    <span class="secondary-content">{{item.price}}</span>
+                                </li> 
+                        </ul>
+                    </div>
+            
+        </li>
+            
+        <li>
+                <div class="collapsible-header"><i class="material-icons">local_cafe</i>Traditional Beverages</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                                <li class="collection-item avatar" ng-repeat="item in beverageItems">
+                                    <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                    <span class="title">{{item.itemName}}</span>
+                                    <p>{{item.description}}</p>
+                                    <span class="secondary-content">{{item.price}}</span>
+                                </li> 
+                        </ul>
+                    </div>
+            
+        </li>
 
-    <div class="col  m4 s12" >
-        Vegetarian
-    </div>
-    <div class="col m4 s12" >
-        Non Vegetarian
-    </div>
-    
-    
+        <li>
+                <div class="collapsible-header"><i class="material-icons">donut_large</i>Indian Breads</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                                <li class="collection-item avatar" ng-repeat="item in breadItems">
+                                    <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                    <span class="title">{{item.itemName}}</span>
+                                    <p>{{item.description}}</p>
+                                    <span class="secondary-content">{{item.price}}</span>
+                                </li> 
+                        </ul>
+                    </div>
+            
+        </li>
+
+        
+        <li>
+                <div class="collapsible-header"><i class="material-icons">local_bar</i>Drinks</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                                <li class="collection-item avatar" ng-repeat="item in drinksItems">
+                                    <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                    <span class="title">{{item.itemName}}</span>
+                                    <p>{{item.description}}</p>
+                                    <span class="secondary-content">{{item.price}}</span>
+                                </li> 
+                        </ul>
+                    </div>
+            
+        </li>
+        <li>
+                <div class="collapsible-header"><i class="material-icons">local_cafe</i>Desserts</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                                <li class="collection-item avatar" ng-repeat="item in dessertItems">
+                                    <img ng-src="{{'/images/'+item.imgeName}}" onerror="this.src='/images/default_blank.png'" class="circle" >
+                                    <span class="title">{{item.itemName}}</span>
+                                    <p>{{item.description}}</p>
+                                    <span class="secondary-content">{{item.price}}</span>
+                                </li> 
+                        </ul>
+                    </div>
+            
+        </li>
+    </ul>
 </div>
+<div class="col s1 m1"></div>
+
+</div>
+
+
+<script>
+    $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+        
+</script>
