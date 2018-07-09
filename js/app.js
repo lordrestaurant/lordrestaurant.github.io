@@ -6,41 +6,49 @@
 			{  
 			   'price':'$ 75.00  ',
 			   'itemName':'Vegetable Samosa',
+			   'imageName':'samosa.jpg',
 			   'description':'Homemade meatballs stuffed with potatoes, peas, coriander and slightly spicy spices.'
 			},
 			{  
 			   'price':'$ 85.00  ',
 			   'itemName':'Chicken Samosa',
+			   'imageName':'samosa.jpg',
 			   'description':'Crunchy dough dumplings stuffed with chicken, onion, ginger, coriander seeds and more spices.'
 			},
 			{  
 			   'price':'$ 80.00  ',
 			   'itemName':'Momo of vegetables',
+			   'imageName':'momo.jpg',
 			   'description':'Small cocoons of barley flour stuffed with vegetables.'
 			},
 			{  
 			   'price':'$ 90.00  ',
 			   'itemName':'Chicken Momo',
+			   'imageName':'momo.jpg',
 			   'description':'Small buds of barley flour stuffed with chicken.'
 			},
 			{  
 			   'price':'$ 70.00  ',
 			   'itemName':'Pakora of vegetables',
+			   'imageName':'vegetable_pakora.jpg',
 			   'description':'Mixture of vegetables coated in chickpea flour and spices; fried'
 			},
 			{  
 			   'price':'$ 65.00  ',
 			   'itemName':'Onion Pakora',
+			   'imageName':'onion_pakora.jpg',
 			   'description':'Onion strips battered in chickpea flour and special fried.'
 			},
 			{  
 			   'price':'$ 65.00  ',
 			   'itemName':'Pakora de paneer',
+			   'imageName':'paneer_pakora.jpg',
 			   'description':'Cheese fingers coated in chickpea flour and special; fried'
 			},
 			{  
 			   'price':'$ 65.00  ',
 			   'itemName':'Pakora egg',
+
 			   'description':'Boiled egg coated in chickpea flour and special; fried'
 			},
 			{  
@@ -61,10 +69,12 @@
 			{  
 			   'price':'$ 90.00  ',
 			   'itemName':'Chicken 65',
+			   'imageName':'chicken_65.jpg',
 			   'description':'Chicken marinated in a hot spicy batter and cornmeal, fried and garnished with fried onions.'
 			},
 			{  
 			   'price':'$ 80.00  ',
+			   'imageName':'paneer_chilly.jpg',
 			   'itemName':'Panner chilli dry',
 			   'description':'Indian cottage cheese sauteed with onion, peppers, tomato and curry leaves.'
 			}
