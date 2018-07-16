@@ -557,6 +557,8 @@
 		when("/menu", {
 			templateUrl: "partials/menu.html",
 			controller:"menuController"
+		}).when("/events", {
+			templateUrl: "partials/events.html"
 		}).
 		when("/aboutus", {
 			templateUrl: "partials/aboutus.html"
