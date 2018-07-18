@@ -169,7 +169,7 @@
 		{  
 		   'price':'$ 130.00  ',
 		   'itemName':'Chicken Tikka Masala',
-			'imageName':'chiken_tikka_masala.jpg',
+			'imageName':'chicken_tikka_masala.jpg',
 		   'description':'A traditional and popular chicken dish cooked in a soft and creamy tomato sauce.'
 		},
 		{  
