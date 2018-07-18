@@ -169,31 +169,37 @@
 		{  
 		   'price':'$ 130.00  ',
 		   'itemName':'Chicken Tikka Masala',
+			'imageName':'chiken_tikka_masala.jpg',
 		   'description':'A traditional and popular chicken dish cooked in a soft and creamy tomato sauce.'
 		},
 		{  
 		   'price':'$ 130.00  ',
 		   'itemName':'Butter chicken masala',
+			'imageName':'butter_chicken_masala.jpg',
 		   'description':'Very smooth creamy dish cooked with tandoori spices with fresh cream and butter.'
 		},
 		{  
 		   'price':'$ 110.00  ',
 		   'itemName':'Chicken curry',
+			'imageName':'chicken_curry.jpg',
 		   'description':'Chunks of fresh chicken seasoned with spices.'
 		},
 		{  
 		   'price':'$ 110.00  ',
 		   'itemName':'Chilli chicken',
+			'imageName':'chicken_chilli.jpg',
 		   'description':'Fried chicken pieces seasoned with garlic, ginger, soy and red pepper.'
 		},
 		{  
 		   'price':'$ 125.00  ',
 		   'itemName':'Chicken korma',
+			'imageName':'chicken_korma.jpg',
 		   'description':'Boneless and tender chicken cooked with garam masala, yogurt, cream, coriander leaves and nuts in powder.'
 		},
 		{  
 		   'price':'$ 105.00  ',
 		   'itemName':'Poolo manchurian',
+			'imageName':'chicken_manchurian.jpg',
 		   'description':'Fried chicken pieces seasoned with garlic, ginger, soy and red pepper.'
 		},
 		{  
@@ -402,11 +408,13 @@
 		{  
 		   'price':'$ 45.00  ',
 		   'itemName':'Chai masala',
+			'imageName':'chai_masala.jpg',
 		   'description':'Black tea mixed with ginger, cinnamon, cardamom, cloves, milk and sugar.'
 		},
 		{  
 		   'price':'$ 50.00  ',
 		   'itemName':'Mango lassi',
+			'imageName':'mango_lasi.jpg',
 		   'description':'Whipped cream yogurt with mango and cardamom.'
 		},
 		{  
@@ -422,6 +430,7 @@
 		{  
 		   'price':'$ 30.00  ',
 		   'itemName':'Black Chai',
+			'imageName':'black_tea.jpg',
 		   'description':'Black tea mixed with ginger, cinnamon, cardamom, cloves and black pepper.'
 		}
 	 ]
