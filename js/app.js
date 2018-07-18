@@ -48,22 +48,25 @@
 			{  
 			   'price':'$ 65.00  ',
 			   'itemName':'Pakora egg',
-
+			    'imageName':'egg_pakora.jpg',
 			   'description':'Boiled egg coated in chickpea flour and special; fried'
 			},
 			{  
 			   'price':'$ 70.00  ',
 			   'itemName':'Chicken pakora',
+				'imageName':'chicken_pakora.jpg',
 			   'description':'Chicken strips battered in chickpea flour and special; fried.'
 			},
 			{  
 			   'price':'$ 90.00  ',
 			   'itemName':'Prawan pakora',
+				'imageName':'prawns_pakora.jpg',
 			   'description':'Fried shrimp marinated with chickpea flour.'
 			},
 			{  
 			   'price':'$ 80.00  ',
 			   'itemName':'Fish pakora',
+				'imageName':'fish_pakora.jpg',
 			   'description':'Fried fish strips marinated with chickpea flour.'
 			},
 			{  
@@ -115,41 +118,49 @@
 			{  
 			   'price':'$ 50.00  ',
 			   'itemName':'Basmati',
+				'imageName':'basmati_rice.jpg',
 			   'description':'Steamed basmati white rice.'
 			},
 			{  
 			   'price':'$ 75.00  ',
 			   'itemName':'Ka shmiri ka pulau',
+				'imageName':'kashmiri_pulao.jpg',
 			   'description':'Basmati rice with raisins, dried fruits and saffron.'
 			},
 			{  
 			   'price':'$ 80.00  ',
 			   'itemName':'Jira rice',
+				'imageName':'jira_rice.jpg',
 			   'description':'Basmati rice with cardamom, cinnamon, cumin star anise and saffron.'
 			},
 			{  
 			   'price':'$ 85.00  ',
 			   'itemName':'Fried rice with vegetables',
+				'imageName':'veg_fried_rice.jpg',
 			   'description':'With peas, green beans, carrots, cabbage.'
 			},
 			{  
 			   'price':'$ 60.00  ',
 			   'itemName':'Lemon rice',
+				'imageName':'lemon_rice.jpg',
 			   'description':'Tempered rice with mustard seeds, curry leaves, dried red chili, peanuts and lemon juice.'
 			},
 			{  
 			   'price':'$ 65.00  ',
 			   'itemName':'Coconut rice',
+				'imageName':'coconut_rice.jpg',
 			   'description':'Plain rice mixed with grated coconut, cashew nuts, mustard seeds and curry leaves.'
 			},
 			{  
 			   'price':'$ 65.00  ',
 			   'itemName':'Tomato rice',
+				'imageName':'tomato_rice.jpg',
 			   'description':'Freshly pressed tomatoes in basil leaves with dried fruits.'
 			},
 			{  
 			   'price':'$ 65.00  ',
 			   'itemName':'Special curd rice',
+				'imageName':'curd_rice.jpg',
 			   'description':'The curd rice here is served in a unique style, mixed with a soft curd, salted and tempered with a tadka.'
 			}
 		 ]
