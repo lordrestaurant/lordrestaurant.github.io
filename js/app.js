@@ -511,36 +511,43 @@
 		{  
 		   'price':'$ 25.00  ',
 		   'itemName':'Coca Cola',
+				'imageName':'coca_cola.jpg',
 		   'description':'Of 355 ml.'
 		},
 		{  
 		   'price':'$ 25.00  ',
+				'imageName':'coca_cola_no_sugar.jpg',
 		   'itemName':'Coca cola without sugar',
 		   'description':'Of 355 ml.'
 		},
 		{  
 		   'price':'$ 25.00  ',
 		   'itemName':'Diet Coke',
+				'imageName':'diet_coca_cola.jpg',
 		   'description':'Of 355 ml.'
 		},
 		{  
 		   'price':'$ 25.00  ',
+				'imageName':'sprite_zero.jpg',
 		   'itemName':'Sprite zero',
 		   'description':'Of 355 ml.'
 		},
 		{  
 		   'price':'$ 25.00  ',
 		   'itemName':'Fanta',
+				'imageName':'fanta.jpg',
 		   'description':'Of 355 ml.'
 		},
 		{  
 		   'price':'$ 25.00  ',
 		   'itemName':'Sidral Mundet',
+				'imageName':'mundet.jpg',
 		   'description':'Of 355 ml.'
 		},
 		{  
 		   'price':'$ 25.00  ',
 		   'itemName':'Ciel',
+				'imageName':'ciel.jpg',
 		   'description':'500 ml'
 		}
 	 ]
@@ -549,21 +556,25 @@
 		{  
 		   'price':'$ 80.00  ',
 		   'itemName':'Gulab jamun',
+				'imageName':'gulab_jamun.jpg',
 		   'description':'This delicious Indian dessert is a soft filling, melted in the mouth, fried meatballs traditionally made of thickened or reduced milk, soaked in sugar syrup with a rose flavor.'
 		},
 		{  
 		   'price':'$ 55.00  ',
 		   'itemName':'Kheer',
+				'imageName':'kheer.jpg',
 		   'description':'Rice pudding with cardamom and saffron.'
 		},
 		{  
 		   'price':'$ 60.00  ',
 		   'itemName':'Jalebi',
+		   'imageName':'jalebi.jpg',
 		   'description':'Spirals of dough flavored with saffron and cardamom.'
 		},
 		{  
 		   'price':'$ 80.00  ',
 		   'itemName':'Carrot halawa',
+				'imageName':'gajar_halwa.jpg',
 		   'description':'Traditional carrot cake.'
 		}
 	 ]
